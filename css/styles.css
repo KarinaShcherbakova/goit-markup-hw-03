@@ -39,10 +39,6 @@ p, h1, h2, h3, h4, h5, h6 {
     padding: 0 15px;
     margin: 0 auto;
 }
-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 
 /*____________________HEADER__________________*/
 .header {
@@ -252,9 +248,11 @@ align-items: center;
 /*___________________________________________*/
 /*_____________________PORTFOLIO_____________*/
 .portfolio {
-    border-bottom: 1px solid #e7e9fc;
+    border: 1px solid #e7e9fc;
     padding-right: 141px;
     padding-left: 141px;
+    padding-top: 120px;
+    padding-bottom: 120px;
      
 }
 .portfolio-container {
@@ -278,14 +276,13 @@ align-items: center;
     align-items: center;
     gap: 24px;
     flex-wrap: wrap;
+    row-gap: 48px;
 }
 .portfolio-item {
     width: calc ( (1128 - 2 * 24) / 3);
 }
 .portfolio-subtitle-container {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
+    padding: 32px 16px;
 }
 .portfolio-image-container {
     display: block; 
@@ -300,6 +297,7 @@ align-items: center;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .portfolio-item-text {
     font-size: 16px;
