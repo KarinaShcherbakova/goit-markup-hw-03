@@ -190,7 +190,7 @@ align-items: center;
     color: #434455;
     width: 264px;
 }/*___________________________________________*/
-/*_____________________TEAM__________________*/
+/*______________________TEAM__________________*/
 .team {
     background: #f4f4fd;
 }
@@ -313,6 +313,8 @@ align-items: center;
     background: #2e2f42;
     padding-right: 141px;
     padding-left: 141px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .footer-navigation-container {
     display: block;
@@ -332,15 +334,14 @@ align-items: center;
  
     .logo {
         width: 115px;
-        
-    }
-    
+        display: inline-block;
+        margin-bottom: 16px;     
+    }  
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     width: 264px;
-    margin-top: 16px;
 }
 /*___________________________________________*/
